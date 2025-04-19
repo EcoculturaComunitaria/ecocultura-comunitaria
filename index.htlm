@@ -63,7 +63,12 @@
     <!-- GALERÍA -->
     <section id="galeria">
         <h2>Galería de Experiencias</h2>
-        <p>Aquí se mostrará un carrusel de fotos.</p>
+        <div class="carrusel">
+            <div class="carrusel-item"><img src="img1.jpg" alt="Imagen 1"></div>
+            <div class="carrusel-item"><img src="img2.jpg" alt="Imagen 2"></div>
+            <div class="carrusel-item"><img src="img3.jpg" alt="Imagen 3"></div>
+            <div class="carrusel-item"><img src="img4.jpg" alt="Imagen 4"></div>
+        </div>
     </section>
 
     <!-- CONTACTO -->
