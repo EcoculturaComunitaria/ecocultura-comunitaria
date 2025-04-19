@@ -7,21 +7,21 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #ffffff; /* fondo blanco */
+    background-color: #ffffff;
     color: #333333;
     line-height: 1.6;
 }
 
 /* HEADER */
 header {
-    background-color: #D8F3DC; /* verde pastel */
+    background-color: #D8F3DC;
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid #A3B18A; /* borde café suave */
+    border-bottom: 2px solid #A3B18A;
 }
 
 header h1 {
-    color: #000000; /* negro para título principal */
+    color: #000000;
     font-size: 36px;
     margin-bottom: 10px;
 }
@@ -62,7 +62,7 @@ p, li {
 .boton {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #80FFDB; /* azul vibrante fluorescente */
+    background-color: #80FFDB;
     color: #000000;
     border: none;
     border-radius: 5px;
@@ -75,7 +75,7 @@ p, li {
     background-color: #64DFDF;
 }
 
-/* LISTAS DE SERVICIOS Y LÍNEAS */
+/* LISTAS */
 ul {
     list-style: none;
     padding: 0;
@@ -84,12 +84,36 @@ ul {
 ul li {
     padding: 8px;
     margin: 5px 0;
-    background-color: #FFF3B0; /* amarillo pastel */
-    border: 1px solid #A3B18A; /* borde café */
+    background-color: #FFF3B0;
+    border: 1px solid #A3B18A;
     border-radius: 5px;
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* CARRUSEL */
+.carrusel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+.carrusel-item {
+    flex: 0 0 auto;
+    width: 250px;
+    border: 2px solid #A3B18A;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #D8F3DC;
+}
+
+.carrusel-item img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
 }
 
 /* FOOTER */
